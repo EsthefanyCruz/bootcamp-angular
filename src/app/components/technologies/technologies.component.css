@@ -1,0 +1,17 @@
+summary {
+  background-color: white;
+  border: none;
+  border-color: white;
+  cursor: pointer;
+  font-family: "Times New Roman";
+  font-weight: bold;
+  color: #DF013A;
+  outline:none;
+  font-size: large;
+}
+datalist{
+  font-family: "Times New Roman";
+}
+p {
+  background-color: white;
+}

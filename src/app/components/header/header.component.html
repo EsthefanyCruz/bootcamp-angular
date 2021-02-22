@@ -1,0 +1,13 @@
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+  <button (click)="toggleMenu()" class="hamburger">
+    <span>toggle menu</span>
+  </button>
+  <app-menu [@slideInOut]="menuState"></app-menu>
+  <img
+    width="40"
+    src="./assets/images/alebrije.png"
+  />
+  <span>Development Bootcamp Alebrije </span>
+
+</div>

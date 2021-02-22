@@ -1,0 +1,43 @@
+:host {
+  background: #1976d2;
+  color: black;
+  position: fixed;
+  left: auto;
+  top: 60px;
+  right: 0;
+  bottom: 0;
+  width: 20%;
+  min-width: 330px;
+  z-index: 9999;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.menu{
+  top: 40px;
+  left: 80px;
+  position: relative;
+  font-family: "Times New Roman";
+}
+
+ul {
+  font-size: 22px;
+  line-height: 3;
+  font-weight: bold;
+  padding-top: 50px;
+  list-style: none;
+  color: #1976d2;
+  font-family: "Times New Roman";
+}
+
+a:link, a:visited {
+  background-color: #1976d2;
+  color: white;
+  padding: 20px 50px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: white;
+  color: black;
+}
